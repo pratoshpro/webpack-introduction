@@ -9,8 +9,7 @@ const extractCSSInternal = new ExtractTextPlugin({ filename: 'app.css', allChunk
 
 module.exports = {
   entry: {
-    main: './src/index.js',
-    app: './src/style.js'
+    main: './src/index.js'
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
