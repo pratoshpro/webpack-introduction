@@ -1,0 +1,33 @@
+{
+  "name": "webpack-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --watch && http-server -o ./dist",
+    "build": "webpack -p",
+    "http-server": "http-server ./dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.9.0",
+    "postcss-loader": "^2.1.4",
+    "sass-loader": "^7.0.1",
+    "style-ext-html-webpack-plugin": "^3.4.7",
+    "style-loader": "^0.21.0",
+    "svg-sprite-loader": "^3.8.0",
+    "webpack": "3.7.0"
+  },
+  "dependencies": {
+    "lite-server": "^2.4.0"
+  }
+}
